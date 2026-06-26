@@ -1,7 +1,7 @@
 FROM node:18-alpine
 
-ARG SHOPIFY_API_KEY
-ENV SHOPIFY_API_KEY=$SHOPIFY_API_KEY
+# Bypass Vite's API key check during frontend build
+ENV CI=true
 EXPOSE 8081
 WORKDIR /app
 
