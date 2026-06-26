@@ -2,7 +2,7 @@
 
 client_id = "78a9b5fe0bf3cfcc654292d9aec3a5b4"
 name = "announcement-app"
-application_url = "https://example.com"
+application_url = "https://shopify-app-template-node-production-26e0.up.railway.app"
 embedded = true
 
 [access_scopes]
@@ -11,7 +11,7 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [ 
-  "https://example.com/api/auth/callback" 
+  "https://shopify-app-template-node-production-26e0.up.railway.app/api/auth/callback" 
 ]
 
 [webhooks]
