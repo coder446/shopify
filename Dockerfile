@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Bypass Vite's API key check during frontend build
 ENV CI=true
