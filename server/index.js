@@ -113,4 +113,4 @@ app.use("/*", shopify.ensureInstalledOnShop(), async (_req, res, _next) => {
     );
 });
 
-app.listen(PORT);
+app.listen(PORT, "0.0.0.0");
